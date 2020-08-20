@@ -1,0 +1,11 @@
+- config:
+        name:
+        request:
+                base_url:
+- test:
+        name:
+        request:
+        url:
+        method:
+        validate:
+                -eq: [ecode_status,200]
